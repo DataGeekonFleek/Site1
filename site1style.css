@@ -1,5 +1,64 @@
+div {
+  display:block;
+}
+
+body {
+  font-family: Helvetica;
+  color: #000000;
+  font-size:14px;
+  margin: 0px 0px 0px 0px;
+  }
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+font-size: 20px;
+font-weight: bold;
+}
+
+.box {
+  width:300px;
+  height: 300px;
+}
+
+.blue {
+background: #00CCFF;}
+
+.green {
+background: #66FF33;
+position: relative;
+left: 325px;}
+
+.coral {
+background: #FF5050;
+position: relative;
+left: 325px;}
+
+#container{
+  width: 950px;
+  margin: auto;
+}
+
 #header{
-background: #9933FF;
-width:970px;
-height: 145px;
+  background: #FFFFFF;
+  width: 950px;
+  height: 60px;
+  }
+
+/* Menu Items*/
+
+#logo{
+  width: 30px;
+}
+
+#navicons {
+float: right;
+}
+
+
+nav a {
+  padding: 20px;
 }
