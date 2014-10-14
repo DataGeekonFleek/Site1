@@ -5,42 +5,21 @@ div {
 body {
   font-family: Helvetica;
   color: #000000;
-  font-size:14px;
+  font-size:20px;
   margin: 0px 0px 0px 0px;
   }
-
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-}
 
 h2 {
 font-size: 20px;
 font-weight: bold;
 }
 
-.box {
-  width:300px;
-  height: 300px;
-}
-
-.blue {
-background: #00CCFF;}
-
-.green {
-background: #66FF33;
-position: relative;
-left: 325px;}
-
-.coral {
-background: #FF5050;
-position: relative;
-left: 325px;}
-
 #container{
   width: 950px;
   margin: auto;
 }
+
+/* Navigation Items*/
 
 #header{
   background: #FFFFFF;
@@ -48,10 +27,8 @@ left: 325px;}
   height: 60px;
   }
 
-/* Menu Items*/
-
 #logo{
-  width: 30px;
+  float: left;
 }
 
 #navicons {
@@ -61,4 +38,64 @@ float: right;
 
 nav a {
   padding: 20px;
+}
+
+
+/*Intro*/
+
+h1 {
+  font-size: 84px;
+  font-weight: bold;
+  padding: 3px 0px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.intro p{
+  margin: 0px 25px;
+}
+
+
+/*Guidelines */
+
+.Guidelines ul{
+  list-style-image:url('http://i61.tinypic.com/116qnno.png');
+}
+
+.Guidelines li{
+margin-bottom: 2px;
+}
+
+
+/*Grid */
+
+.row { height: 300px;
+ }
+
+.box {
+  width:300px;
+  height: 300px;
+}
+
+.box:hover{
+  opacity:.6;
+}
+
+.blue {
+background: #00CCFF;
+position: relative;
+left: 0px;
+top: 0px;}
+
+.green {
+background: #66FF33;
+position: relative;
+left: 325px;
+top: -300px;
+}
+
+.coral {
+background: #FF5050;
+position: relative;
+left: 650px;
+top:-600px;
 }
