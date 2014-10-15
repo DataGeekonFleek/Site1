@@ -29,10 +29,14 @@ font-weight: bold;
 
 #logo{
   float: left;
+  width: 350px;
+
 }
 
 #navicons {
 float: right;
+position: relative;
+top: 15px;
 }
 
 
