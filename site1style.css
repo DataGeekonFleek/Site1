@@ -25,6 +25,10 @@ font-weight: bold;
   background: #FFFFFF;
   width: 950px;
   height: 60px;
+  position: fixed;
+  border-top-color: #9933FF;
+  border-top-style: solid;
+  border-top-width: 4px;
   }
 
 #logo{
@@ -44,6 +48,11 @@ nav a {
   padding: 20px;
 }
 
+nav img{
+  width:24px;
+  height: 24px;
+}
+
 
 /*Intro*/
 
@@ -55,11 +64,35 @@ h1 {
   text-align: center;
 }
 .intro p{
-  margin: 0px 25px;
+  margin: 55px 75px;
 }
 
 
 /*Guidelines */
+
+.rowG {
+height: 150px;
+background: #68DBC0;
+}
+
+.col{
+  width: 400px;
+}
+
+.short{
+  width: 920px;
+  background:#9933FF;
+  margin: 10px 0px 10px 10px;
+  padding: 5px;
+  position:relative;
+  top: 10px;
+}
+
+.long {
+  width:65%
+  margin: 10px;
+  padding: 5px;
+}
 
 .Guidelines ul{
   list-style-image:url('http://i61.tinypic.com/116qnno.png');
@@ -89,6 +122,15 @@ background: #00CCFF;
 position: relative;
 left: 0px;
 top: 0px;}
+
+span.text-content{
+  text-align:center;
+  opacity:0;
+}
+
+.box:hover span.text-content{
+  opacity:1.0;
+}
 
 .green {
 background: #66FF33;
