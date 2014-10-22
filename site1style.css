@@ -84,8 +84,8 @@ background: #68DBC0;
   background:#9933FF;
   margin: 10px 0px 10px 10px;
   padding: 5px;
-  position:relative;
-  top: 10px;
+  z-index: auto;
+
 }
 
 .long {
@@ -111,6 +111,7 @@ margin-bottom: 2px;
 .box {
   width:300px;
   height: 300px;
+
 }
 
 .box:hover{
@@ -126,6 +127,13 @@ top: 0px;}
 span.text-content{
   text-align:center;
   opacity:0;
+  font-size: 105px;
+  text-transform: uppercase;
+  font-weight: 5px;
+  text-align: center;
+  font-family: futura;
+  padding: 15px;
+
 }
 
 .box:hover span.text-content{
@@ -144,4 +152,14 @@ background: #FF5050;
 position: relative;
 left: 650px;
 top:-600px;
+}
+
+/*footer*/
+footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  font-style: italic;
+  height: 25px;
+  padding: 5px;
 }
